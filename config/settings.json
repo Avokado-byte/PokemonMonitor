@@ -1,1 +1,15 @@
-{}
+{
+    "project": {
+        "name": "Pokemon Monitor Chile",
+        "version": "1.0.0"
+    },
+    "application": {
+        "headless": true,
+        "scan_interval": 300,
+        "log_level": "INFO",
+        "timeout": 30
+    },
+    "discord": {
+        "enabled": false
+    }
+}

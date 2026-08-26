@@ -66,7 +66,27 @@
         {
             "path": "config/settings.json",
             "required": true,
-            "content": {}
+            "content": {
+                "project": {
+                    "name": "Pokemon Monitor Chile",
+                    "version": "1.0.0"
+                },
+                "application": {
+                    "headless": true,
+                    "scan_interval": 300,
+                    "log_level": "INFO",
+                    "timeout": 30,
+                    "max_workers": 5,
+                    "retry_attempts": 3
+                },
+                "discord": {
+                    "enabled": false,
+                    "webhook": ""
+                },
+                "database": {
+                    "path": "data/database/monitor.db"
+                }
+            }
         },
         {
             "path": "config/.env",
