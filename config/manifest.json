@@ -1,0 +1,117 @@
+{
+    "project": {
+        "name": "Pokemon Monitor Chile",
+        "version": "1.0.0",
+        "author": "Hugo Parada"
+    },
+    "directories": [
+        {
+            "path": "config",
+            "required": true
+        },
+        {
+            "path": "data",
+            "required": true
+        },
+        {
+            "path": "data/keywords",
+            "required": true
+        },
+        {
+            "path": "data/seeds",
+            "required": true
+        },
+        {
+            "path": "data/discovered",
+            "required": true
+        },
+        {
+            "path": "data/catalogs",
+            "required": true
+        },
+        {
+            "path": "data/database",
+            "required": true
+        },
+        {
+            "path": "logs",
+            "required": true
+        },
+        {
+            "path": "plugins",
+            "required": true
+        },
+        {
+            "path": "scrapers",
+            "required": true
+        },
+        {
+            "path": "services",
+            "required": true
+        },
+        {
+            "path": "notifications",
+            "required": true
+        },
+        {
+            "path": "utils",
+            "required": true
+        },
+        {
+            "path": "tests",
+            "required": true
+        }
+    ],
+    "files": [
+        {
+            "path": "config/settings.json",
+            "required": true,
+            "content": {}
+        },
+        {
+            "path": "config/.env",
+            "required": true,
+            "content": {}
+        },
+        {
+            "path": "data/keywords/keywords.json",
+            "required": true,
+            "content": {
+                "discover_stores": [],
+                "discover_products": [],
+                "ignore_domains": [],
+                "ignore_words": []
+            }
+        },
+        {
+            "path": "data/seeds/tiendas_seed.json",
+            "required": true,
+            "content": []
+        },
+        {
+            "path": "data/seeds/productos_seed.json",
+            "required": true,
+            "content": []
+        },
+        {
+            "path": "data/discovered/tiendas_descubiertas.json",
+            "required": true,
+            "content": []
+        },
+        {
+            "path": "data/discovered/productos_descubiertos.json",
+            "required": true,
+            "content": []
+        },
+        {
+            "path": "data/catalogs/tiendas.json",
+            "required": true,
+            "content": []
+        },
+        {
+            "path": "data/catalogs/productos.json",
+            "required": true,
+            "content": []
+        }
+    ]
+}
